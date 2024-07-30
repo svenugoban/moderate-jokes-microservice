@@ -40,6 +40,6 @@ app.delete("/jokes/:id", (req, res) => {
   res.send("Joke deleted");
 });
 
-app.listen(3000, () => {
-  console.log("Moderate Jokes service running on port 3000");
+app.listen(3003, () => {
+  console.log("Moderate Jokes service running on port 3003");
 });
